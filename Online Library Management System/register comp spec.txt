@@ -1,0 +1,99 @@
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
+import { RouterTestingModule } from '@angular/router/testing';
+import {Router, Routes} from "@angular/router";
+
+import { ApiService } from '../../service/api.service';
+import { RegisterComponent } from './register.component';
+import { Member } from '../../models/member';
+import { HomeComponent } from '../home/home.component';
+
+describe('RegisterComponent', () => {
+  let component: RegisterComponent;
+  let fixture: ComponentFixture<RegisterComponent>;
+  let router: Router;
+
+  beforeEach(async(() => {
+    TestBed.configureTestingModule({
+      declarations: [ RegisterComponent ],
+      imports: [
+        HttpClientTestingModule,
+        FormsModule,
+        ReactiveFormsModule,
+        RouterTestingModule
+      ],
+      providers: [
+        ApiService
+      ]
+    })
+    .compileComponents();
+  }));
+
+  beforeEach(() => {
+    router = TestBed.get(Router);
+    //location = TestBed.get(Location); 
+    
+    fixture = TestBed.createComponent(RegisterComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+
+  it("should register a new member", () => {
+    const member = new Member();
+    member.dob = 'dob';
+    member.email = 'email';
+    member.fiction = 'true';
+    member.gender = 'gender';
+    member.journals = 'true';
+    member.name = 'abc';
+    member.science = 'true';
+
+    component.isEdit = false;
+    component.regMembership(member);
+    
+    console.log("going to the service now");
+    const apiService = fixture.debugElement.injector.get(ApiService);
+    apiService.addMember(member).subscribe(
+      result => {
+        console.log("success");
+        //const url = spy.calls.first().args[0];
+        //expect(url[0]).toContain('/home'); 
+      }
+    ); 
+
+       
+  });  
+
+  it("should edit a member", () => {
+    const member = new Member();
+    member.dob = 'dob';
+    member.email = 'email';
+    member.fiction = 'true';
+    member.gender = 'gender';
+    member.journals = 'true';
+    member.name = 'abc';
+    member.science = 'true';
+
+    component.isEdit = true;
+    component.regMembership(member);
+    
+    console.log("going to the service now");
+    const apiService = fixture.debugElement.injector.get(ApiService);
+    apiService.updateMember(member).subscribe(
+      result => {
+        console.log("success");
+        //const url = spy.calls.first().args[0];
+        //expect(url[0]).toContain('/home'); 
+      }
+    ); 
+
+       
+  });  
+  
+
+});

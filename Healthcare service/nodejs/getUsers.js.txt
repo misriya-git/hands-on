@@ -1,0 +1,34 @@
+let user=require('../models/user');
+let mongoose=require('mongoose');
+const bodyParser = require('body-parser');
+let jwt = require('jsonwebtoken');
+let config = require('../config');
+const mongo = require('mongodb').MongoClient;
+
+const express = require('express');
+const router = express.Router();
+
+/*write your code here*/
+router.get('/fetchUsers', (req, res) => {
+    user.find()
+        .then(
+            result => {
+                console.log(result.length);
+                res.json(
+                        result                                  
+                    );
+            }
+        )
+        .catch(
+            error => {
+                res.json({
+                    message: 'User list not found.',
+                    status: false,
+
+                })
+            }
+        )
+      
+});
+
+module.exports = router;

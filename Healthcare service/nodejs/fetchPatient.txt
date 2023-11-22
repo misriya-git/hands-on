@@ -1,0 +1,42 @@
+let patientDetails=require('../models/patients');
+let mongoose=require('mongoose');
+const bodyParser = require('body-parser');
+let jwt = require('jsonwebtoken');
+let config = require('../config');
+const mongo = require('mongodb').MongoClient
+
+const express = require('express');
+const router = express.Router();
+
+/*write your code here*/
+router.get('/fetchPatient', (req, res) => {
+    patientDetails.find()
+        .then(
+            result => {
+                console.log(result.length);
+                if (result.length !== 0) {
+                    res.json(
+                        result                                  
+                    );
+
+                } else {
+                  res.json({
+                        message: 'Patient list not found.',
+                        status: false                                
+                    });
+                }
+            }
+        )
+        .catch(
+            error => {
+                res.json({
+                    message: 'Patient list not found.',
+                    status: false,
+
+                })
+            }
+        )
+      
+});
+
+module.exports = router;

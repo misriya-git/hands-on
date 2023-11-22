@@ -1,0 +1,35 @@
+ngAfterViewInit() {
+    console.log('ngAfterViewInit======');
+    console.log("Form Valid:" + this.complexForm.valid);
+
+    var errorFlag = this.complexForm.controls['error-minlength-firstname'].value;
+    console.log('error-minlength-firstname' + errorFlag);
+
+    errorFlag = this.complexForm.controls['error-no-lastname'].value;
+    console.log('error-no-lastname' + errorFlag);
+
+    errorFlag = this.complexForm.controls['error-minlength-lastname'].value;
+    console.log('error-minlength-lastname' + errorFlag);
+
+    errorFlag = this.complexForm.controls['error-maxlength-lastname'].value;
+    console.log('error-maxlength-lastname' + errorFlag);
+
+    errorFlag = this.complexForm.controls['error-no-gender'].value;
+    console.log('error-no-gender' + errorFlag);
+
+    errorFlag = this.complexForm.controls['error-no-dob'].value;
+    console.log('error-no-dob' + errorFlag);
+
+    errorFlag = this.complexForm.controls['error-no-mobile'].value;
+    console.log('error-no-mobile' + errorFlag);
+
+    errorFlag = this.complexForm.controls['error-number-mobile'].value;
+    console.log('error-number-mobile' + errorFlag);
+
+    errorFlag = this.complexForm.controls['error-maxlength-mobile'].value;
+    console.log('error-maxlength-mobile' + errorFlag);
+
+    errorFlag = this.complexForm.controls['error-no-email'].value;
+    console.log('error-no-email' + errorFlag);
+  }
+

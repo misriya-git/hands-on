@@ -1,0 +1,29 @@
+let singlePatientAppointments=require('../models/appointments');
+let mongoose=require('mongoose');
+const bodyParser = require('body-parser');
+let jwt = require('jsonwebtoken');
+let config = require('../config');
+const mongo = require('mongodb').MongoClient
+
+const express = require('express');
+const router = express.Router();
+
+/*write your code here*/
+router.delete('/deleteAppointment', (req, res) => {
+    singlePatientAppointments.remove({ _id: req.query.appointmentId })
+                        .then(
+                            result => {
+                                res.json(result);
+                            }
+                        )
+                        .catch(
+                            error => {
+                                res.json({
+                                   message: ' Deletion fail',
+                                   status: false,
+                                })
+                            }
+                        )
+});
+
+module.exports = router;

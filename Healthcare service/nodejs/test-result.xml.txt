@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="80.02700000000002" tests="9" failures="8">
+  <testsuite name="Root Suite" timestamp="2022-02-23T06:54:00" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Preparing to test API" timestamp="2022-02-23T06:54:00" tests="0" file="/projects/challenge/nodejs/test/test.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="API testing started" timestamp="2022-02-23T06:54:00" tests="9" file="/projects/challenge/nodejs/test/test.js" failures="8" time="80.02700000000002">
+    <testcase name="Preparing to test API API testing started it should test register API" time="10" classname="it should test register API">
+      <failure message="timeout of 10000ms exceeded. Ensure the done() callback is being called in this test." type="Error"><![CDATA[Error: timeout of 10000ms exceeded. Ensure the done() callback is being called in this test.]]></failure>
+    </testcase>
+    <testcase name="Preparing to test API API testing started it should test login API" time="10.003" classname="it should test login API">
+      <failure message="timeout of 10000ms exceeded. Ensure the done() callback is being called in this test." type="Error"><![CDATA[Error: timeout of 10000ms exceeded. Ensure the done() callback is being called in this test.]]></failure>
+    </testcase>
+    <testcase name="Preparing to test API API testing started it should test addPatient API" time="0.001" classname="it should test addPatient API">
+    </testcase>
+    <testcase name="Preparing to test API API testing started it should test editProfile API" time="10.001" classname="it should test editProfile API">
+      <failure message="timeout of 10000ms exceeded. Ensure the done() callback is being called in this test." type="Error"><![CDATA[Error: timeout of 10000ms exceeded. Ensure the done() callback is being called in this test.]]></failure>
+    </testcase>
+    <testcase name="Preparing to test API API testing started it should test fetchPatient API" time="10.005" classname="it should test fetchPatient API">
+      <failure message="timeout of 10000ms exceeded. Ensure the done() callback is being called in this test." type="Error"><![CDATA[Error: timeout of 10000ms exceeded. Ensure the done() callback is being called in this test.]]></failure>
+    </testcase>
+    <testcase name="Preparing to test API API testing started it should test diseases API" time="10.006" classname="it should test diseases API">
+      <failure message="timeout of 10000ms exceeded. Ensure the done() callback is being called in this test." type="Error"><![CDATA[Error: timeout of 10000ms exceeded. Ensure the done() callback is being called in this test.]]></failure>
+    </testcase>
+    <testcase name="Preparing to test API API testing started it should test bookAppointment API" time="10.003" classname="it should test bookAppointment API">
+      <failure message="timeout of 10000ms exceeded. Ensure the done() callback is being called in this test." type="Error"><![CDATA[Error: timeout of 10000ms exceeded. Ensure the done() callback is being called in this test.]]></failure>
+    </testcase>
+    <testcase name="Preparing to test API API testing started it should test fetchAppointment API" time="10.004" classname="it should test fetchAppointment API">
+      <failure message="timeout of 10000ms exceeded. Ensure the done() callback is being called in this test." type="Error"><![CDATA[Error: timeout of 10000ms exceeded. Ensure the done() callback is being called in this test.]]></failure>
+    </testcase>
+    <testcase name="Preparing to test API API testing started it should test singlePatientAppointments API" time="10.004" classname="it should test singlePatientAppointments API">
+      <failure message="timeout of 10000ms exceeded. Ensure the done() callback is being called in this test." type="Error"><![CDATA[Error: timeout of 10000ms exceeded. Ensure the done() callback is being called in this test.]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

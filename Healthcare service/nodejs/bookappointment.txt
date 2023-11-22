@@ -1,0 +1,37 @@
+let appointments=require('../models/appointments');
+let mongoose=require('mongoose');
+const bodyParser = require('body-parser');
+let jwt = require('jsonwebtoken');
+let config = require('../config');
+const mongo = require('mongodb').MongoClient
+
+const express = require('express');
+const router = express.Router();
+
+/*write your code here*/
+router.post('/bookAppointment', (req, res) => {
+    let appointmentsData = req.body;
+                    let appointment = new appointments(appointmentsData);
+                    appointment._id = new mongoose.Types.ObjectId();
+                    console.log(appointment);
+                    appointment.save()
+                        .then(
+                            result => {
+                                res.json({
+                                   message: 'Appointment booking success',
+                                   status: 'success',
+                                   send: (appointment)
+                                })
+                            }
+                        )
+                        .catch(
+                            error => {
+                                res.json({
+                                   message: ' Patient registration fail',
+                                   status: false,
+                                })
+                            }
+                        )
+});
+
+module.exports = router;

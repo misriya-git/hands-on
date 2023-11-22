@@ -1,0 +1,212 @@
+import { HttpErrorResponse } from '@angular/common/http';
+import { Injectable } from '@angular/core';
+import { BehaviorSubject } from 'rxjs/BehaviorSubject';
+import { Observable } from 'rxjs/Observable';
+import { of } from 'rxjs/observable/of';
+
+import { Credentials } from '../models/credentials.model';
+import { Users } from '../models/users';
+import { Patient } from '../models/patient';
+import { Appointment } from '../models/appointment';
+
+import { ApiService } from './api.service';
+
+@Injectable()
+export class DataService {
+
+  userId : string;
+
+  constructor(private api: ApiService) {
+
+  }
+
+  authenticateUser(username: string, password: string): Observable<boolean> {
+
+    // store 'uid' from response as key name 'uid' to the localstorage
+    // store 'token' from response as key name 'token' to the localstorage
+    this.api.checkLogin(username, password).subscribe(
+                response => {
+                    localStorage.setItem('uid', response.uid);
+                    localStorage.setItem('token', response.token);
+                    // return true if user authenticated
+                    return of(true);
+                },
+                error => {
+                    // return false if user not authenticated 
+                    return of(false);
+                });     
+    return of(false);                
+  }
+
+  getAuthStatus(): Observable<boolean> {
+
+    // return true/false as a auth status
+    const uid = localStorage.getItem('uid');
+    if (uid != null) {
+      return of(true);
+    }
+    else {
+      return of(false);
+    }
+  }
+
+  regNewUser(regNewUser): Observable<any> {
+
+    // should return response retrieved from ApiService
+    this.api.regNewUser(regNewUser).subscribe(
+                response => {
+                    return response;
+                },
+                error => {
+                    // handle error
+                    this.handleError(error);
+                });     
+    return;
+  }
+
+  doLogOut() {
+
+    // You should remove the key 'uid', 'token' if exists
+    localStorage.removeItem('uid');
+    localStorage.removeItem('token');
+  }
+
+  getUserDetails(): Observable<any> {
+
+    // should return user details retrieved from api service
+    const uid = localStorage.getItem('uid');
+    return this.api.getUserDetails(uid);
+  }
+
+  updateProfile(userDetails): Observable<boolean> {
+
+    // should return response retrieved from ApiService
+    this.api.updateDetails(userDetails).subscribe(
+                response => {
+                    return response;
+                },
+                error => {
+                    // handle error
+                    this.handleError(error);
+                });     
+    return;
+  }
+
+  registerPatient(patientDetails): Observable<any> {
+
+    // should return response retrieved from ApiService
+    this.api.registerPatient(patientDetails).subscribe(
+                response => {
+                    return response;
+                },
+                error => {
+                    // handle error
+                    this.handleError(error);
+                });     
+    return;
+  }
+
+  getAllPatientsList(): Observable<any> {
+
+    // should return all patients list retrieved from ApiService
+    this.api.getAllPatientsList().subscribe(
+                response => {
+                    return response;
+                },
+                error => {
+                    // handle error
+                    this.handleError(error);
+                });     
+    return;
+  }
+
+  getParticularPatient(id): Observable<any> {
+
+    // should return particular patient details retrieved from ApiService
+    this.api.getParticularPatient(id).subscribe(
+                response => {
+                    return response;
+                },
+                error => {
+                    // handle error
+                    this.handleError(error);
+                });     
+    return;
+  }
+  
+  diseasesList(): Observable<any> {
+
+    // should return response retrieved from ApiService
+    this.api.diseasesList().subscribe(
+                response => {
+                    return response;
+                },
+                error => {
+                    // handle error
+                    this.handleError(error);
+                });     
+    return;
+  }
+
+  scheduleAppointment(appointmentDetails): Observable<any> {
+
+    // should return response retrieved from ApiService
+    this.api.scheduleAppointment(appointmentDetails).subscribe(
+                response => {
+                    return response;
+                },
+                error => {
+                    // handle error
+                    this.handleError(error);
+                });     
+    return;
+  }
+
+  getSinglePatientAppointments(patientId): Observable<any> {
+
+    // should return response retrieved from ApiService
+    this.api.getSinglePatientAppointments(patientId).subscribe(
+                response => {
+                    return response;
+                },
+                error => {
+                    // handle error
+                    this.handleError(error);
+                });     
+    return;
+  }
+
+  deleteAppointment(appointmentId): Observable<any> {
+
+    // should return response retrieved from ApiService
+    this.api.deleteAppointment(appointmentId).subscribe(
+                response => {
+                    return response;
+                },
+                error => {
+                    // handle error
+                    this.handleError(error);
+                });     
+    return;
+  }
+
+  requestedAppointments(): Observable<any> {
+
+    // should return response retrieved from ApiService
+    this.api.requestedAppointments().subscribe(
+                response => {
+                    return response;
+                },
+                error => {
+                    // handle error
+                    this.handleError(error);
+                });     
+    return;
+  }
+
+  private handleError(error: Response | any) {
+    return Observable.throw(error);
+  }
+
+}
+

@@ -1,0 +1,1864 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 0.0.0 (Linux 0.0.0)" package="unit" timestamp="2022-03-07T08:24:33" id="0" hostname="workspacehgaicuxnc83rrr9h.ws-5c65b9f85b-t85dn" tests="159" errors="0" failures="100" time="8.138">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/78.0.3904.108 Safari/537.36"/>
+  </properties>
+  <testcase name="AllPatientsListComponent should call getAllPatientsList method when page loads " time="0.115" classname="unit.AllPatientsListComponent"/>
+  <testcase name="AllPatientsListComponent should call view method with the id of selected patient" time="0.07" classname="unit.AllPatientsListComponent"/>
+  <testcase name="AllPatientsListComponent should navigate to patientList page with selected patientId : case 1" time="0.06" classname="unit.AllPatientsListComponent"/>
+  <testcase name="AllPatientsListComponent should navigate to patientList page with selected patientId : case 2" time="0.045" classname="unit.AllPatientsListComponent"/>
+  <testcase name="AllRequestedAppointmentsComponent should call requestedAppointments method by default " time="0.059" classname="unit.AllRequestedAppointmentsComponent"/>
+  <testcase name="AllRequestedAppointmentsComponent should call view method with the id of selected patient" time="0.058" classname="unit.AllRequestedAppointmentsComponent"/>
+  <testcase name="AllRequestedAppointmentsComponent should navigate to patientList page with selected patientId" time="0.049" classname="unit.AllRequestedAppointmentsComponent"/>
+  <testcase name="AllRequestedAppointmentsComponent should call cancelAppointment method with the id of selected patient" time="0.045" classname="unit.AllRequestedAppointmentsComponent"/>
+  <testcase name="AllRequestedAppointmentsComponent should call deleteAppointment method of dataService with the id of selected patient" time="0.043" classname="unit.AllRequestedAppointmentsComponent"/>
+  <testcase name="AllRequestedAppointmentsComponent should fetch all appointments after cancelling an appointment" time="0.04" classname="unit.AllRequestedAppointmentsComponent"/>
+  <testcase name="FormComponent All validation errors should be hidden and form should be invalid by default" time="0.373" classname="unit.FormComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:227:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:229:37
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:230:44
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:233:36
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:234:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:235:41
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:237:34
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:238:31
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:240:34
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:241:38
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="FormComponent should display no firstname validation error when the field kept as null(dirty)" time="0.091" classname="unit.FormComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:253:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:259:35
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:261:44
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="FormComponent should display firstname minimum length validation error when the field has less than 3 length" time="0.081" classname="unit.FormComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:273:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:279:35
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:282:37
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="FormComponent should display firstname maximun length validation error when the field has greater than 20 length" time="0.095" classname="unit.FormComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:293:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:299:35
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:300:44
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:301:37
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected null to be truthy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:302:44
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Error: Uncaught (in promise): TypeError: Cannot read property 'textContent' of null
+TypeError: Cannot read property 'textContent' of null
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:303:79
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run node_modules/zone.js/dist/zone.js:150:1)
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:889:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invokeTask node_modules/zone.js/dist/zone.js:423:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask node_modules/zone.js/dist/zone-testing.js:320:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invokeTask node_modules/zone.js/dist/zone.js:422:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invokeTask node_modules/zone.js/dist/zone.js:423:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask node_modules/zone.js/dist/zone-testing.js:320:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invokeTask node_modules/zone.js/dist/zone.js:422:1)
+    at resolvePromise node_modules/zone.js/dist/zone.js:831:1)
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:896:1
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.runTask node_modules/zone.js/dist/zone.js:195:1)
+    at webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneTask.invokeTask node_modules/zone.js/dist/zone.js:498:1)
+    at ZoneTask.invoke node_modules/zone.js/dist/zone.js:487:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.flushMicrotasks node_modules/zone.js/dist/zone-testing.js:1225:1)
+    at flushMicrotasks node_modules/@angular/core/esm5/testing.js:483:1)
+</failure>
+  </testcase>
+  <testcase name="FormComponent should display no firstname validation error when the field kept as null(dirty)" time="0.081" classname="unit.FormComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:313:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:319:35
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:321:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:322:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="FormComponent should display lastname minimum length validation error when the field has less than 3 length" time="0.07" classname="unit.FormComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:333:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:339:34
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:342:36
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:343:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="FormComponent should display lastname maximun length validation error when the field has greater than 20 length" time="0.068" classname="unit.FormComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:353:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:359:34
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:360:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:361:36
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="FormComponent gender field validity" time="0.082" classname="unit.FormComponent">
+    <failure type="">Expected true to be falsy.
+    at UserContext.&lt;anonymous&gt; src/app/component/form/form.component.spec.ts:370:30)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+</failure>
+    <failure type="">Expected undefined to be truthy.
+    at UserContext.&lt;anonymous&gt; src/app/component/form/form.component.spec.ts:373:32)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+</failure>
+  </testcase>
+  <testcase name="FormComponent gender validation gets pass when clicking male radio button" time="0.067" classname="unit.FormComponent">
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:388:34
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="FormComponent gender validation gets pass when clicking female radio button" time="0.073" classname="unit.FormComponent">
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:401:34
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="FormComponent should display no date of birth validation error when the field kept as null(dirty)" time="0.082" classname="unit.FormComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:411:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:415:29
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="FormComponent Date of birth validation gets pass when the field has valid value" time="0.09" classname="unit.FormComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:427:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:432:31
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="FormComponent mobile field validity" time="0.061" classname="unit.FormComponent">
+    <failure type="">Expected true to be falsy.
+    at UserContext.&lt;anonymous&gt; src/app/component/form/form.component.spec.ts:439:30)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+</failure>
+    <failure type="">Expected undefined to be truthy.
+    at UserContext.&lt;anonymous&gt; src/app/component/form/form.component.spec.ts:442:32)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+</failure>
+    <failure type="">Expected undefined to be truthy.
+    at UserContext.&lt;anonymous&gt; src/app/component/form/form.component.spec.ts:447:31)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+</failure>
+    <failure type="">Expected undefined to be truthy.
+    at UserContext.&lt;anonymous&gt; src/app/component/form/form.component.spec.ts:457:31)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+</failure>
+  </testcase>
+  <testcase name="FormComponent should display no mobile number validation error when the field has kept as null(dirty)" time="0.067" classname="unit.FormComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:472:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:478:32
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:480:38
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:481:41
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="FormComponent should display mobile number pattern validation error when the field has value" time="0.077" classname="unit.FormComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:492:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:498:32
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:499:34
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:501:41
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="FormComponent should display mobile maximun length validation error when the field has greater than 10 length" time="0.098" classname="unit.FormComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:512:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:518:32
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:519:34
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:520:38
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="FormComponent should display email pattern validation error" time="0.105" classname="unit.FormComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:532:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:536:31
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="FormComponent should not display email validation error when the email field is valid" time="0.105" classname="unit.FormComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:548:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:553:38
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="FormComponent should call submitform method for valid form" time="0.086" classname="unit.FormComponent">
+    <failure type="">Expected spy submitForm to have been called.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:572:36
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="FormComponent should navigate to PatientList page after successful registration" time="0.1" classname="unit.FormComponent">
+    <failure type="">Expected '' to be '/patientList'.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/form/form.component.spec.ts:590:33
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="HeaderComponent should get profile details by default(when page loads)" time="0.056" classname="unit.HeaderComponent"/>
+  <testcase name="HeaderComponent should get logged user details" time="0.042" classname="unit.HeaderComponent"/>
+  <testcase name="HeaderComponent should get error on occurence of error" time="0.043" classname="unit.HeaderComponent"/>
+  <testcase name="HeaderComponent should logout when clicked on &quot;logout&quot; menu" time="0.056" classname="unit.HeaderComponent"/>
+  <testcase name="LoginComponent All validation errors should be hidden and form should be invalid by default" time="0.075" classname="unit.LoginComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:114:41
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:115:36
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:116:36
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:117:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:118:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:119:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:120:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:121:41
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:122:41
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="LoginComponent should display no username validation error when the field kept as null(dirty)" time="0.043" classname="unit.LoginComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:134:41
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:138:34
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="LoginComponent should display minlength 3 username validation error when the username length less than 3" time="0.049" classname="unit.LoginComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:152:41
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:155:34
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="LoginComponent should display maxlength username validation error when the username length greater than 20" time="0.043" classname="unit.LoginComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:172:41
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:175:34
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="LoginComponent should not display any error when the username field is valid" time="0.053" classname="unit.LoginComponent">
+    <failure type="">Expected null to be truthy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:196:86
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:198:36
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:199:43
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:200:43
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="LoginComponent should display no password validation error when the field kept as null(dirty)" time="0.045" classname="unit.LoginComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:212:41
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:216:34
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="LoginComponent should display minlength 8 password validation error when the password length less than 8" time="0.043" classname="unit.LoginComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:233:34
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="LoginComponent should display maxlength password validation error when the password length exceeds 20" time="0.041" classname="unit.LoginComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:251:34
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="LoginComponent should display password pattern validation error" time="0.069" classname="unit.LoginComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:269:34
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="LoginComponent should not display password error when the password field is valid" time="0.042" classname="unit.LoginComponent">
+    <failure type="">Expected null to be truthy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:289:86
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:291:36
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:292:43
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:293:43
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:294:41
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="LoginComponent should enable login button(form valid) when both field are valid" time="0.051" classname="unit.LoginComponent">
+    <failure type="">Expected null to be truthy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:317:86
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:319:36
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:320:43
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:321:43
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected null to be truthy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:322:86
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:324:36
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:325:43
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:326:43
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:327:41
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="LoginComponent should hide validation messages and call login method from authservice for valid credentials" time="0.047" classname="unit.LoginComponent">
+    <failure type="">Expected spy doLogin to have been called.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:353:33
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected spy authenticateUser to have been called with [ 'xxx', 'Xxxxxxxx1$' ] but it was never called.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:354:44
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:359:36
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:360:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:361:36
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:362:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="LoginComponent should redirect to profile page on correct credentials" time="0.045" classname="unit.LoginComponent">
+    <failure type="">Expected spy doLogin to have been called.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:386:33
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected spy authenticateUser to have been called with [ 'xxx', 'Xxxxxxxx1$' ] but it was never called.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:388:44
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected '' to be '/profile'.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:391:33
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="LoginComponent should not redirect to other pages on incorrect credentials" time="0.042" classname="unit.LoginComponent">
+    <failure type="">Expected spy doLogin to have been called.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:416:33
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected spy authenticateUser to have been called with [ 'xxx', 'Xxxxxxxx1$' ] but it was never called.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:418:44
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="LoginComponent should not redirect to other pages on occurence of error" time="0.044" classname="unit.LoginComponent">
+    <failure type="">Expected spy doLogin to have been called.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:447:33
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected spy authenticateUser to have been called with [ 'xxx', 'Xxxxxxxx1$' ] but it was never called.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:449:44
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="LoginComponent #dologin should return false if form is invalid" time="0.042" classname="unit.LoginComponent">
+    <failure type="">Expected true to be falsy.
+    at UserContext.&lt;anonymous&gt; src/app/component/login/login.component.spec.ts:459:39)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+</failure>
+  </testcase>
+  <testcase name="LoginComponent clear localStorage if any, when login" time="0.045" classname="unit.LoginComponent">
+    <failure type="">Expected 'abc123efg' to be null.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:485:44
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected 'abc123efg' to be null.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/login/login.component.spec.ts:486:46
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="LoginComponent should navigate to register-new-user page when clicked on &quot;sign up&quot; button" time="0.044" classname="unit.LoginComponent">
+    <failure type="">Expected '' to be '/register_user'.
+    at UserContext.&lt;anonymous&gt; src/app/component/login/login.component.spec.ts:497:29)
+    at UserContext.&lt;anonymous&gt; node_modules/@angular/core/esm5/testing.js:411:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="ProfileComponent should display profile details on load" time="0.079" classname="unit.ProfileComponent">
+    <failure type="">Expected spy getProfileDetails to have been called.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/profile/profile.component.spec.ts:98:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected '' to equal 'test'.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/profile/profile.component.spec.ts:111:45
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected '' to equal '1234567890'.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/profile/profile.component.spec.ts:112:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected '' to equal 'test@test.com'.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/profile/profile.component.spec.ts:113:42
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected '' to equal 'testLocation'.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/profile/profile.component.spec.ts:114:45
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="ProfileComponent should get getUserDetails method error on occurence of error" time="0.073" classname="unit.ProfileComponent">
+    <failure type="">Expected spy getProfileDetails to have been called.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/profile/profile.component.spec.ts:132:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="ProfileComponent should display edit profile form on edit profile button click" time="0.062" classname="unit.ProfileComponent">
+    <failure type="">Expected spy editMyProfile to have been called.
+    at UserContext.&lt;anonymous&gt; src/app/component/profile/profile.component.spec.ts:145:37)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+</failure>
+    <failure type="">Expected false to be true.
+    at UserContext.&lt;anonymous&gt; src/app/component/profile/profile.component.spec.ts:147:35)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+</failure>
+    <failure type="">Expected HTMLNode to be null.
+    at UserContext.&lt;anonymous&gt; src/app/component/profile/profile.component.spec.ts:152:32)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+</failure>
+  </testcase>
+  <testcase name="ProfileComponent should display profile details on clicking discard button" time="0.058" classname="unit.ProfileComponent">
+    <failure type="">Expected HTMLNode to be null.
+    at UserContext.&lt;anonymous&gt; src/app/component/profile/profile.component.spec.ts:161:32)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+</failure>
+    <failure type="">Expected spy discardEdit to have been called.
+    at UserContext.&lt;anonymous&gt; src/app/component/profile/profile.component.spec.ts:166:35)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+</failure>
+    <failure type="">Expected true to be false.
+    at UserContext.&lt;anonymous&gt; src/app/component/profile/profile.component.spec.ts:169:35)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+</failure>
+    <failure type="">Expected HTMLNode to be null.
+    at UserContext.&lt;anonymous&gt; src/app/component/profile/profile.component.spec.ts:174:33)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+</failure>
+  </testcase>
+  <testcase name="ProfileComponent should validate the edit profile form" time="0.067" classname="unit.ProfileComponent">
+    <failure type="">Expected HTMLNode to be null.
+    at UserContext.&lt;anonymous&gt; src/app/component/profile/profile.component.spec.ts:187:32)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+</failure>
+    <failure type="">Expected HTMLNode to be null.
+    at UserContext.&lt;anonymous&gt; src/app/component/profile/profile.component.spec.ts:191:32)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+</failure>
+    <failure type="">Expected true to be falsy.
+    at UserContext.&lt;anonymous&gt; src/app/component/profile/profile.component.spec.ts:201:45)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+</failure>
+    <failure type="">Expected true to be falsy.
+    at UserContext.&lt;anonymous&gt; src/app/component/profile/profile.component.spec.ts:204:45)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+</failure>
+    <failure type="">Expected true to be falsy.
+    at UserContext.&lt;anonymous&gt; src/app/component/profile/profile.component.spec.ts:208:45)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+</failure>
+    <failure type="">Expected true to be falsy.
+    at UserContext.&lt;anonymous&gt; src/app/component/profile/profile.component.spec.ts:211:45)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+</failure>
+  </testcase>
+  <testcase name="ProfileComponent should populate form fields with values on edit profile button click" time="0.066" classname="unit.ProfileComponent">
+    <failure type="">Expected Object({ value: '' }) to equal 'test'.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/profile/profile.component.spec.ts:232:68
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected '' to equal 1234567890.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/profile/profile.component.spec.ts:233:66
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected '' to equal 'test@test.com'.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/profile/profile.component.spec.ts:234:65
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected '' to equal 'testLocation'.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/profile/profile.component.spec.ts:235:68
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="ProfileComponent should submit profile changes with validation" time="0.07" classname="unit.ProfileComponent">
+    <failure type="">Expected spy changeMyProfile to have been called.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/profile/profile.component.spec.ts:269:41
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected spy getProfileDetails to have been called.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/profile/profile.component.spec.ts:273:45
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected spy discardEdit to have been called.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/profile/profile.component.spec.ts:274:39
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="ProfileComponent should not call getProfileDetails if profile is not updated" time="0.076" classname="unit.ProfileComponent"/>
+  <testcase name="ProfileComponent getUserDetails should return error on occurence of error" time="0.068" classname="unit.ProfileComponent">
+    <failure type="">Expected Object({ value: '' }) to equal ''.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/profile/profile.component.spec.ts:296:70
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="ProfileComponent updateProfile should return error on occurence of error" time="0.06" classname="unit.ProfileComponent"/>
+  <testcase name="RegisterNewUserComponent should navigate to login when clicked on back button" time="0.054" classname="unit.RegisterNewUserComponent">
+    <failure type="">Expected spy goBack to have been called.
+    at UserContext.&lt;anonymous&gt; src/app/component/register-new-user/register-new-user.component.spec.ts:124:30)
+    at UserContext.&lt;anonymous&gt; node_modules/@angular/core/esm5/testing.js:411:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected '' to be '/login'.
+    at UserContext.&lt;anonymous&gt; src/app/component/register-new-user/register-new-user.component.spec.ts:125:29)
+    at UserContext.&lt;anonymous&gt; node_modules/@angular/core/esm5/testing.js:411:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="RegisterNewUserComponent All validation errors should be hidden and form should be invalid by default" time="0.07" classname="unit.RegisterNewUserComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:133:42
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:135:36
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:136:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:137:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:138:41
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:140:36
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:141:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:142:43
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:143:41
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:145:28
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:146:27
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:147:30
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="RegisterNewUserComponent should display no username validation error when the field kept as null(dirty)" time="0.051" classname="unit.RegisterNewUserComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:159:42
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:163:34
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="RegisterNewUserComponent should display minlength 3 username validation error when the username length less than 3" time="0.066" classname="unit.RegisterNewUserComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:177:42
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:180:34
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="RegisterNewUserComponent should display maxlength 20 username validation error when the username length greater than 20" time="0.083" classname="unit.RegisterNewUserComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:197:42
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:200:34
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="RegisterNewUserComponent should display username pattern validation error" time="0.055" classname="unit.RegisterNewUserComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:217:42
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:220:34
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="RegisterNewUserComponent should not display any error when the username field is valid" time="0.052" classname="unit.RegisterNewUserComponent">
+    <failure type="">Expected null to be truthy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:243:86
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:245:36
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:246:43
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:247:43
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:248:41
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="RegisterNewUserComponent should display no password validation error when the field kept as null(dirty)" time="0.055" classname="unit.RegisterNewUserComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:260:42
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:264:34
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="RegisterNewUserComponent should display minlength 8 password validation error when the password length less than 8" time="0.051" classname="unit.RegisterNewUserComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:281:34
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="RegisterNewUserComponent should display maxlength 20 password validation error when the password length greater less than 20" time="0.051" classname="unit.RegisterNewUserComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:299:34
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="RegisterNewUserComponent should display password pattern validation error" time="0.058" classname="unit.RegisterNewUserComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:317:34
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="RegisterNewUserComponent should not display password error when the password field is valid" time="0.059" classname="unit.RegisterNewUserComponent">
+    <failure type="">Expected null to be truthy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:337:86
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:339:36
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:340:43
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:341:43
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:342:41
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="RegisterNewUserComponent should display mobile pattern validation error" time="0.058" classname="unit.RegisterNewUserComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:356:32
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="RegisterNewUserComponent should not display mobile error when the mobile field is valid" time="0.051" classname="unit.RegisterNewUserComponent">
+    <failure type="">Expected null to be truthy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:373:84
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:375:28
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="RegisterNewUserComponent should display email pattern validation error" time="0.067" classname="unit.RegisterNewUserComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:389:31
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="RegisterNewUserComponent should not display email validation error when the email field is valid" time="0.049" classname="unit.RegisterNewUserComponent">
+    <failure type="">Expected null to be truthy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:406:83
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:408:27
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="RegisterNewUserComponent should display location validation error when the field kept as null(dirty)" time="0.049" classname="unit.RegisterNewUserComponent">
+    <failure type="">Expected true to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:422:34
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="RegisterNewUserComponent should not display location validation error when the location field is valid" time="0.053" classname="unit.RegisterNewUserComponent">
+    <failure type="">Expected null to be truthy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:439:86
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:441:30
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="RegisterNewUserComponent should enable Create Account button(form valid) when all fields are valid" time="0.053" classname="unit.RegisterNewUserComponent">
+    <failure type="">Expected null to be truthy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:487:86
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:489:36
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:490:43
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:491:43
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:492:41
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected null to be truthy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:493:86
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:495:36
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:496:43
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:497:43
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:498:41
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected null to be truthy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:499:84
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:501:28
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected null to be truthy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:502:83
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:504:27
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected null to be truthy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:505:86
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    <failure type="">Expected HTMLNode to be falsy.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:507:30
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/esm5/testing.js:411:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="RegisterNewUserComponent should call signUp method when all fields are valid" time="0.058" classname="unit.RegisterNewUserComponent">
+    <failure type="">Expected spy signUp to have been called.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:547:34
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+    <failure type="">Expected spy regNewUser to have been called.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:548:40
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="RegisterNewUserComponent should redirect to login page after successful registration" time="0.067" classname="unit.RegisterNewUserComponent">
+    <failure type="">Expected '' to be '/login'.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:586:33
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="RegisterNewUserComponent should not redirect to login page on occurence of error" time="0.05" classname="unit.RegisterNewUserComponent"/>
+  <testcase name="RegisterNewUserComponent navigate to login page when clicked on back button" time="0.051" classname="unit.RegisterNewUserComponent">
+    <failure type="">Expected '' to be '/login'.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/register-new-user/register-new-user.component.spec.ts:634:33
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="ViewPatientComponent should call getParticularPatient method of DataService by default" time="0.092" classname="unit.ViewPatientComponent"/>
+  <testcase name="ViewPatientComponent Book Appointment &amp; Scheduled Appointment should be enabled by default" time="0.1" classname="unit.ViewPatientComponent"/>
+  <testcase name="ViewPatientComponent &quot;Scheduled Appointment&quot; button should be disabled after clicking on &quot;Scheduled Appointment&quot;" time="0.122" classname="unit.ViewPatientComponent"/>
+  <testcase name="ViewPatientComponent &quot;Book Appointment&quot; button should be disabled after clicking on &quot;Scheduled Appointment&quot;" time="0.099" classname="unit.ViewPatientComponent"/>
+  <testcase name="ViewPatientComponent should get diseasesList when clicking on &quot;Book Appointment&quot;" time="0.107" classname="unit.ViewPatientComponent"/>
+  <testcase name="ViewPatientComponent should call scheduleAppointment method for valid form input&quot;" time="0.099" classname="unit.ViewPatientComponent">
+    <failure type="">Expected spy scheduleAppointment to have been called.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/view-patient/view-patient.component.spec.ts:239:45
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="ViewPatientComponent should call scheduleAppointment method of DataService with appointment details" time="0.096" classname="unit.ViewPatientComponent">
+    <failure type="">Expected spy scheduleAppointment to have been called.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/view-patient/view-patient.component.spec.ts:258:47
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="ViewPatientComponent should navigate to requested_appointments page after booking an appointment" time="0.105" classname="unit.ViewPatientComponent">
+    <failure type="">Expected '' to be '/requested_appointments'.
+    at http://localhost:9876/_karma_webpack_/webpack:/src/app/component/view-patient/view-patient.component.spec.ts:277:31
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at FakeAsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.FakeAsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:1331:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:286:1)
+</failure>
+  </testcase>
+  <testcase name="ViewPatientComponent should call cancelAppointment method with selected appointment id" time="0.098" classname="unit.ViewPatientComponent"/>
+  <testcase name="ViewPatientComponent should call deleteAppointment method of DataService with selected appointment id" time="0.086" classname="unit.ViewPatientComponent"/>
+  <testcase name="ViewPatientComponent should call scheduleded method after deleting an appointment" time="0.091" classname="unit.ViewPatientComponent"/>
+  <testcase name="ViewPatientComponent should get particular patient appointments when clicking on &quot;scheduled Appointment&quot; button" time="0.087" classname="unit.ViewPatientComponent"/>
+  <testcase name="HeaderInterceptor should not add an authorization header for checkLogin method" time="0.016" classname="unit.HeaderInterceptor"/>
+  <testcase name="HeaderInterceptor should not add an authorization header for regNewUser method" time="0.008" classname="unit.HeaderInterceptor"/>
+  <testcase name="HeaderInterceptor should add an authorization header for getUserDetails method" time="0.006" classname="unit.HeaderInterceptor"/>
+  <testcase name="HeaderInterceptor should add an authorization header for updateDetails method" time="0.008" classname="unit.HeaderInterceptor"/>
+  <testcase name="HeaderInterceptor should add an authorization header for registerPatient method" time="0.008" classname="unit.HeaderInterceptor"/>
+  <testcase name="HeaderInterceptor should add an authorization header for getAllPatientsList method" time="0.006" classname="unit.HeaderInterceptor"/>
+  <testcase name="HeaderInterceptor should add an authorization header for getParticularPatient method" time="0.007" classname="unit.HeaderInterceptor"/>
+  <testcase name="HeaderInterceptor should add an authorization header for diseasesList method" time="0.005" classname="unit.HeaderInterceptor"/>
+  <testcase name="HeaderInterceptor should add an authorization header for scheduleAppointment method" time="0.008" classname="unit.HeaderInterceptor"/>
+  <testcase name="HeaderInterceptor should add an authorization header for getSinglePatientAppointments method" time="0.013" classname="unit.HeaderInterceptor"/>
+  <testcase name="HeaderInterceptor should add an authorization header for deleteAppointment method" time="0.008" classname="unit.HeaderInterceptor"/>
+  <testcase name="HeaderInterceptor should add an authorization header for requestedAppointments method" time="0.005" classname="unit.HeaderInterceptor"/>
+  <testcase name="ApiService login should send user credentials in post request body" time="0.011" classname="unit.ApiService"/>
+  <testcase name="ApiService login should return user details if auth success" time="0.008" classname="unit.ApiService"/>
+  <testcase name="ApiService login should return error message if auth fails" time="0.007" classname="unit.ApiService"/>
+  <testcase name="ApiService regNewUser should return status as success if new user registered successfully" time="0.011" classname="unit.ApiService"/>
+  <testcase name="ApiService regNewUser should return status as failed if new user is not registered(username or email is already exists) " time="0.009" classname="unit.ApiService"/>
+  <testcase name="ApiService getUserDetails should return user details" time="0.006" classname="unit.ApiService"/>
+  <testcase name="ApiService getUserDetails should return false status if userId is not valid" time="0.007" classname="unit.ApiService"/>
+  <testcase name="ApiService updateDetails should return new user details after submitting the update" time="0.008" classname="unit.ApiService">
+    <failure type="">Expected $.uid = undefined to equal '5d89f8f95327ae2548c8ad98'.
+    at UserContext.&lt;anonymous&gt; src/app/services/api.service.spec.ts:289:47)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+</failure>
+  </testcase>
+  <testcase name="ApiService updateDetails should return status 500 if user details not updated" time="0.008" classname="unit.ApiService">
+    <failure type="">Expected $.uid = undefined to equal '5d89f8f95327ae2548c8ad98'.
+    at UserContext.&lt;anonymous&gt; src/app/services/api.service.spec.ts:311:47)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+</failure>
+  </testcase>
+  <testcase name="ApiService registerPatient should add patient details in post request body" time="0.008" classname="unit.ApiService">
+    <failure type="">Expected object to have properties
+    desc: 'nothing'
+    dob: '2019-08-31'
+    email: 'abcd@def.gh'
+    fname: 'fnmae'
+    gender: 'Male'
+    lname: 'lname'
+    mobile: '9988776655'
+    userId: '5d89f8f95327ae2548c8ad98'
+Expected object not to have properties
+    patientDetails: Object({ desc: 'nothing', dob: '2019-08-31', email: 'abcd@def.gh', fname: 'fnmae', gender: 'Male', lname: 'lname', mobile: '9988776655', userId: '5d89f8f95327ae2548c8ad98' })
+    at UserContext.&lt;anonymous&gt; src/app/services/api.service.spec.ts:340:42)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+</failure>
+  </testcase>
+  <testcase name="ApiService registerPatient should return success if POST method success" time="0.022" classname="unit.ApiService"/>
+  <testcase name="ApiService getAllPatientsList should return all patient details" time="0.006" classname="unit.ApiService"/>
+  <testcase name="ApiService getParticularPatient should return particular patient details" time="0.006" classname="unit.ApiService"/>
+  <testcase name="ApiService diseasesList should return the list of diseases" time="0.007" classname="unit.ApiService"/>
+  <testcase name="ApiService scheduleAppointment should add appointment details in post request body" time="0.014" classname="unit.ApiService">
+    <failure type="">Expected object to have properties
+    disease: 'sore throat'
+    fname: 'firstname'
+    lname: 'lastname'
+    patientId: '5d8b0549f913d612b39aa9e4'
+    priority: 'Normal'
+    registeredTime: Date(Thu Apr 05 2018 06:13:22 GMT+0000 (Coordinated Universal Time))
+    tentativeDate: '2019-10-05'
+Expected object not to have properties
+    appointmentDetails: Object({ disease: 'sore throat', fname: 'firstname', lname: 'lastname', patientId: '5d8b0549f913d612b39aa9e4', priority: 'Normal', registeredTime: Date(Thu Apr 05 2018 06:13:22 GMT+0000 (Coordinated Universal Time)), tentativeDate: '2019-10-05' })
+    at UserContext.&lt;anonymous&gt; src/app/services/api.service.spec.ts:426:42)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+</failure>
+  </testcase>
+  <testcase name="ApiService scheduleAppointment should return success message if POST method success" time="0.007" classname="unit.ApiService"/>
+  <testcase name="ApiService getSinglePatientAppointments should return requested appointments of particular patient" time="0.006" classname="unit.ApiService"/>
+  <testcase name="ApiService deleteAppointment should return success status if appointment deleted" time="0.008" classname="unit.ApiService"/>
+  <testcase name="ApiService requestedAppointments should return all appointments requested by all patients" time="0.007" classname="unit.ApiService"/>
+  <testcase name="AuthGuardService #canActivate should return true for logged in users" time="0.293" classname="unit.AuthGuardService">
+    <failure type="">Expected undefined to be truthy.
+    at UserContext.&lt;anonymous&gt; src/app/services/auth-guard.service.spec.ts:70:37)
+    at UserContext.&lt;anonymous&gt; node_modules/@angular/core/esm5/testing.js:411:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="AuthGuardService #canActivate should return false and navigate to login if user is not logged in" time="0.286" classname="unit.AuthGuardService">
+    <failure type="">Expected '/context.html' to be '/login'.
+    at UserContext.&lt;anonymous&gt; src/app/services/auth-guard.service.spec.ts:76:29)
+    at UserContext.&lt;anonymous&gt; node_modules/@angular/core/esm5/testing.js:411:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="AuthGuardService #canActivate should navigate to login if error occurs" time="0.263" classname="unit.AuthGuardService">
+    <failure type="">Expected '/context.html' to be '/login'.
+    at UserContext.&lt;anonymous&gt; src/app/services/auth-guard.service.spec.ts:83:29)
+    at UserContext.&lt;anonymous&gt; node_modules/@angular/core/esm5/testing.js:411:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="DataService authenticateUser should return true if auth success" time="0.006" classname="unit.DataService">
+    <failure type="">Expected false to be true.
+    at SafeSubscriber._next src/app/services/data.service.spec.ts:218:19)
+    at SafeSubscriber.webpackJsonp../node_modules/rxjs/_esm5/Subscriber.js.SafeSubscriber.__tryOrSetError node_modules/rxjs/_esm5/Subscriber.js:252:1)
+    at SafeSubscriber.webpackJsonp../node_modules/rxjs/_esm5/Subscriber.js.SafeSubscriber.next node_modules/rxjs/_esm5/Subscriber.js:192:1)
+    at Subscriber.webpackJsonp../node_modules/rxjs/_esm5/Subscriber.js.Subscriber._next node_modules/rxjs/_esm5/Subscriber.js:131:1)
+</failure>
+  </testcase>
+  <testcase name="DataService authenticateUser should store uid, token in localStorage if auth success" time="0.009" classname="unit.DataService">
+    <failure type="">Expected false to be true.
+    at SafeSubscriber._next src/app/services/data.service.spec.ts:226:19)
+    at SafeSubscriber.webpackJsonp../node_modules/rxjs/_esm5/Subscriber.js.SafeSubscriber.__tryOrSetError node_modules/rxjs/_esm5/Subscriber.js:252:1)
+    at SafeSubscriber.webpackJsonp../node_modules/rxjs/_esm5/Subscriber.js.SafeSubscriber.next node_modules/rxjs/_esm5/Subscriber.js:192:1)
+    at Subscriber.webpackJsonp../node_modules/rxjs/_esm5/Subscriber.js.Subscriber._next node_modules/rxjs/_esm5/Subscriber.js:131:1)
+</failure>
+  </testcase>
+  <testcase name="DataService authenticateUser should return false on occurence of error" time="0.004" classname="unit.DataService"/>
+  <testcase name="DataService getAuthStatus should return true for valid users for checking auth status" time="0.004" classname="unit.DataService"/>
+  <testcase name="DataService getAuthStatus should return false for invalid users for checking auth status" time="0.008" classname="unit.DataService"/>
+  <testcase name="DataService regNewUser should return success status if user added successfully" time="0.005" classname="unit.DataService">
+    <failure type="">TypeError: Cannot read property 'subscribe' of undefined
+    at UserContext.&lt;anonymous&gt; src/app/services/data.service.spec.ts:282:40)
+    at UserContext.&lt;anonymous&gt; node_modules/@angular/core/esm5/testing.js:411:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run node_modules/zone.js/dist/zone.js:150:1)
+    at runInTestZone node_modules/zone.js/dist/zone-testing.js:510:1)
+    at UserContext.&lt;anonymous&gt; node_modules/zone.js/dist/zone-testing.js:525:1)
+</failure>
+  </testcase>
+  <testcase name="DataService regNewUser status as failed if new user is not registered(username or email is already exists)" time="0.019" classname="unit.DataService">
+    <failure type="">TypeError: Cannot read property 'subscribe' of undefined
+    at UserContext.&lt;anonymous&gt; src/app/services/data.service.spec.ts:303:40)
+    at UserContext.&lt;anonymous&gt; node_modules/@angular/core/esm5/testing.js:411:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run node_modules/zone.js/dist/zone.js:150:1)
+    at runInTestZone node_modules/zone.js/dist/zone-testing.js:510:1)
+    at UserContext.&lt;anonymous&gt; node_modules/zone.js/dist/zone-testing.js:525:1)
+</failure>
+  </testcase>
+  <testcase name="DataService doLogOut should store clear localStorage" time="0.009" classname="unit.DataService"/>
+  <testcase name="DataService getUserDetails should return user details on providing valid user id" time="0.006" classname="unit.DataService"/>
+  <testcase name="DataService getUserDetails should return error on occurence of error" time="0.007" classname="unit.DataService"/>
+  <testcase name="DataService updateProfile should return true on providing valid user details" time="0.01" classname="unit.DataService">
+    <failure type="">TypeError: Cannot read property 'subscribe' of undefined
+    at UserContext.&lt;anonymous&gt; src/app/services/data.service.spec.ts:361:43)
+    at UserContext.&lt;anonymous&gt; node_modules/@angular/core/esm5/testing.js:411:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run node_modules/zone.js/dist/zone.js:150:1)
+    at runInTestZone node_modules/zone.js/dist/zone-testing.js:510:1)
+    at UserContext.&lt;anonymous&gt; node_modules/zone.js/dist/zone-testing.js:525:1)
+</failure>
+  </testcase>
+  <testcase name="DataService updateProfile should return false on occurence of error" time="0.011" classname="unit.DataService">
+    <failure type="">TypeError: Cannot read property 'subscribe' of undefined
+    at UserContext.&lt;anonymous&gt; src/app/services/data.service.spec.ts:379:43)
+    at UserContext.&lt;anonymous&gt; node_modules/@angular/core/esm5/testing.js:411:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run node_modules/zone.js/dist/zone.js:150:1)
+    at runInTestZone node_modules/zone.js/dist/zone-testing.js:510:1)
+    at UserContext.&lt;anonymous&gt; node_modules/zone.js/dist/zone-testing.js:525:1)
+</failure>
+  </testcase>
+  <testcase name="DataService registerPatient should return patientDetails  on reporting with valid user id " time="0.013" classname="unit.DataService">
+    <failure type="">TypeError: Cannot read property 'subscribe' of undefined
+    at UserContext.&lt;anonymous&gt; src/app/services/data.service.spec.ts:402:48)
+    at UserContext.&lt;anonymous&gt; node_modules/@angular/core/esm5/testing.js:411:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run node_modules/zone.js/dist/zone.js:150:1)
+    at runInTestZone node_modules/zone.js/dist/zone-testing.js:510:1)
+    at UserContext.&lt;anonymous&gt; node_modules/zone.js/dist/zone-testing.js:525:1)
+</failure>
+  </testcase>
+  <testcase name="DataService registerPatient should return error on occurence of error " time="0.009" classname="unit.DataService">
+    <failure type="">TypeError: Cannot read property 'subscribe' of undefined
+    at UserContext.&lt;anonymous&gt; src/app/services/data.service.spec.ts:424:48)
+    at UserContext.&lt;anonymous&gt; node_modules/@angular/core/esm5/testing.js:411:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run node_modules/zone.js/dist/zone.js:150:1)
+    at runInTestZone node_modules/zone.js/dist/zone-testing.js:510:1)
+    at UserContext.&lt;anonymous&gt; node_modules/zone.js/dist/zone-testing.js:525:1)
+</failure>
+  </testcase>
+  <testcase name="DataService getAllPatientsList should return user details on providing valid user id" time="0.014" classname="unit.DataService">
+    <failure type="">TypeError: Cannot read property 'subscribe' of undefined
+    at UserContext.&lt;anonymous&gt; src/app/services/data.service.spec.ts:435:37)
+    at UserContext.&lt;anonymous&gt; node_modules/@angular/core/esm5/testing.js:411:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run node_modules/zone.js/dist/zone.js:150:1)
+    at runInTestZone node_modules/zone.js/dist/zone-testing.js:510:1)
+    at UserContext.&lt;anonymous&gt; node_modules/zone.js/dist/zone-testing.js:525:1)
+</failure>
+  </testcase>
+  <testcase name="DataService getAllPatientsList should return error on occurence of error" time="0.007" classname="unit.DataService">
+    <failure type="">TypeError: Cannot read property 'subscribe' of undefined
+    at UserContext.&lt;anonymous&gt; src/app/services/data.service.spec.ts:446:37)
+    at UserContext.&lt;anonymous&gt; node_modules/@angular/core/esm5/testing.js:411:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run node_modules/zone.js/dist/zone.js:150:1)
+    at runInTestZone node_modules/zone.js/dist/zone-testing.js:510:1)
+    at UserContext.&lt;anonymous&gt; node_modules/zone.js/dist/zone-testing.js:525:1)
+</failure>
+  </testcase>
+  <testcase name="DataService getParticularPatient should return patient details on providing valid user id" time="0.044" classname="unit.DataService">
+    <failure type="">TypeError: Cannot read property 'subscribe' of undefined
+    at UserContext.&lt;anonymous&gt; src/app/services/data.service.spec.ts:457:51)
+    at UserContext.&lt;anonymous&gt; node_modules/@angular/core/esm5/testing.js:411:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run node_modules/zone.js/dist/zone.js:150:1)
+    at runInTestZone node_modules/zone.js/dist/zone-testing.js:510:1)
+    at UserContext.&lt;anonymous&gt; node_modules/zone.js/dist/zone-testing.js:525:1)
+</failure>
+  </testcase>
+  <testcase name="DataService getParticularPatient should return error on occurence of error" time="0.007" classname="unit.DataService">
+    <failure type="">TypeError: Cannot read property 'subscribe' of undefined
+    at UserContext.&lt;anonymous&gt; src/app/services/data.service.spec.ts:468:51)
+    at UserContext.&lt;anonymous&gt; node_modules/@angular/core/esm5/testing.js:411:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run node_modules/zone.js/dist/zone.js:150:1)
+    at runInTestZone node_modules/zone.js/dist/zone-testing.js:510:1)
+    at UserContext.&lt;anonymous&gt; node_modules/zone.js/dist/zone-testing.js:525:1)
+</failure>
+  </testcase>
+  <testcase name="DataService diseasesList should return list of diseases" time="0.007" classname="unit.DataService">
+    <failure type="">TypeError: Cannot read property 'subscribe' of undefined
+    at UserContext.&lt;anonymous&gt; src/app/services/data.service.spec.ts:479:31)
+    at UserContext.&lt;anonymous&gt; node_modules/@angular/core/esm5/testing.js:411:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run node_modules/zone.js/dist/zone.js:150:1)
+    at runInTestZone node_modules/zone.js/dist/zone-testing.js:510:1)
+    at UserContext.&lt;anonymous&gt; node_modules/zone.js/dist/zone-testing.js:525:1)
+</failure>
+  </testcase>
+  <testcase name="DataService diseasesList should return error on occurence of error" time="0.008" classname="unit.DataService">
+    <failure type="">TypeError: Cannot read property 'subscribe' of undefined
+    at UserContext.&lt;anonymous&gt; src/app/services/data.service.spec.ts:490:31)
+    at UserContext.&lt;anonymous&gt; node_modules/@angular/core/esm5/testing.js:411:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run node_modules/zone.js/dist/zone.js:150:1)
+    at runInTestZone node_modules/zone.js/dist/zone-testing.js:510:1)
+    at UserContext.&lt;anonymous&gt; node_modules/zone.js/dist/zone-testing.js:525:1)
+</failure>
+  </testcase>
+  <testcase name="DataService scheduleAppointment should return success status on reporting with valid appointmentDetails " time="0.006" classname="unit.DataService">
+    <failure type="">TypeError: Cannot read property 'subscribe' of undefined
+    at UserContext.&lt;anonymous&gt; src/app/services/data.service.spec.ts:501:52)
+    at UserContext.&lt;anonymous&gt; node_modules/@angular/core/esm5/testing.js:411:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run node_modules/zone.js/dist/zone.js:150:1)
+    at runInTestZone node_modules/zone.js/dist/zone-testing.js:510:1)
+    at UserContext.&lt;anonymous&gt; node_modules/zone.js/dist/zone-testing.js:525:1)
+</failure>
+  </testcase>
+  <testcase name="DataService scheduleAppointment should return error on occurence of error" time="0.01" classname="unit.DataService">
+    <failure type="">TypeError: Cannot read property 'subscribe' of undefined
+    at UserContext.&lt;anonymous&gt; src/app/services/data.service.spec.ts:512:52)
+    at UserContext.&lt;anonymous&gt; node_modules/@angular/core/esm5/testing.js:411:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run node_modules/zone.js/dist/zone.js:150:1)
+    at runInTestZone node_modules/zone.js/dist/zone-testing.js:510:1)
+    at UserContext.&lt;anonymous&gt; node_modules/zone.js/dist/zone-testing.js:525:1)
+</failure>
+  </testcase>
+  <testcase name="DataService getSinglePatientAppointments should return appointment details on providing valid appointment id" time="0.006" classname="unit.DataService">
+    <failure type="">TypeError: Cannot read property 'subscribe' of undefined
+    at UserContext.&lt;anonymous&gt; src/app/services/data.service.spec.ts:524:56)
+    at UserContext.&lt;anonymous&gt; node_modules/@angular/core/esm5/testing.js:411:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run node_modules/zone.js/dist/zone.js:150:1)
+    at runInTestZone node_modules/zone.js/dist/zone-testing.js:510:1)
+    at UserContext.&lt;anonymous&gt; node_modules/zone.js/dist/zone-testing.js:525:1)
+</failure>
+  </testcase>
+  <testcase name="DataService getSinglePatientAppointments should return error on occurence of error" time="0.004" classname="unit.DataService">
+    <failure type="">TypeError: Cannot read property 'subscribe' of undefined
+    at UserContext.&lt;anonymous&gt; src/app/services/data.service.spec.ts:536:56)
+    at UserContext.&lt;anonymous&gt; node_modules/@angular/core/esm5/testing.js:411:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run node_modules/zone.js/dist/zone.js:150:1)
+    at runInTestZone node_modules/zone.js/dist/zone-testing.js:510:1)
+    at UserContext.&lt;anonymous&gt; node_modules/zone.js/dist/zone-testing.js:525:1)
+</failure>
+  </testcase>
+  <testcase name="DataService deleteAppointment should return success status on providing valid appointment id" time="0.007" classname="unit.DataService">
+    <failure type="">TypeError: Cannot read property 'subscribe' of undefined
+    at UserContext.&lt;anonymous&gt; src/app/services/data.service.spec.ts:548:45)
+    at UserContext.&lt;anonymous&gt; node_modules/@angular/core/esm5/testing.js:411:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run node_modules/zone.js/dist/zone.js:150:1)
+    at runInTestZone node_modules/zone.js/dist/zone-testing.js:510:1)
+    at UserContext.&lt;anonymous&gt; node_modules/zone.js/dist/zone-testing.js:525:1)
+</failure>
+  </testcase>
+  <testcase name="DataService deleteAppointment should return error on occurence of error" time="0.004" classname="unit.DataService">
+    <failure type="">TypeError: Cannot read property 'subscribe' of undefined
+    at UserContext.&lt;anonymous&gt; src/app/services/data.service.spec.ts:560:45)
+    at UserContext.&lt;anonymous&gt; node_modules/@angular/core/esm5/testing.js:411:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run node_modules/zone.js/dist/zone.js:150:1)
+    at runInTestZone node_modules/zone.js/dist/zone-testing.js:510:1)
+    at UserContext.&lt;anonymous&gt; node_modules/zone.js/dist/zone-testing.js:525:1)
+</failure>
+  </testcase>
+  <testcase name="DataService requestedAppointments should return all appointments booked by all patients" time="0.015" classname="unit.DataService">
+    <failure type="">TypeError: Cannot read property 'subscribe' of undefined
+    at UserContext.&lt;anonymous&gt; src/app/services/data.service.spec.ts:571:40)
+    at UserContext.&lt;anonymous&gt; node_modules/@angular/core/esm5/testing.js:411:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run node_modules/zone.js/dist/zone.js:150:1)
+    at runInTestZone node_modules/zone.js/dist/zone-testing.js:510:1)
+    at UserContext.&lt;anonymous&gt; node_modules/zone.js/dist/zone-testing.js:525:1)
+</failure>
+  </testcase>
+  <testcase name="DataService requestedAppointments should return error on occurence of error" time="0.005" classname="unit.DataService">
+    <failure type="">TypeError: Cannot read property 'subscribe' of undefined
+    at UserContext.&lt;anonymous&gt; src/app/services/data.service.spec.ts:582:40)
+    at UserContext.&lt;anonymous&gt; node_modules/@angular/core/esm5/testing.js:411:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:289:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:390:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run node_modules/zone.js/dist/zone.js:150:1)
+    at runInTestZone node_modules/zone.js/dist/zone-testing.js:510:1)
+    at UserContext.&lt;anonymous&gt; node_modules/zone.js/dist/zone-testing.js:525:1)
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[HeadlessChrome 0.0.0 (Linux 0.0.0) LOG: undefined
+,HeadlessChrome 0.0.0 (Linux 0.0.0) LOG: undefined
+,HeadlessChrome 0.0.0 (Linux 0.0.0) LOG: undefined
+,HeadlessChrome 0.0.0 (Linux 0.0.0) LOG: undefined
+,HeadlessChrome 0.0.0 (Linux 0.0.0) LOG: undefined
+,HeadlessChrome 0.0.0 (Linux 0.0.0) LOG: undefined
+,HeadlessChrome 0.0.0 (Linux 0.0.0) LOG: undefined
+,HeadlessChrome 0.0.0 (Linux 0.0.0) LOG: undefined
+,HeadlessChrome 0.0.0 (Linux 0.0.0) LOG: undefined
+,HeadlessChrome 0.0.0 (Linux 0.0.0) LOG: undefined
+,HeadlessChrome 0.0.0 (Linux 0.0.0) LOG: undefined
+,HeadlessChrome 0.0.0 (Linux 0.0.0) LOG: undefined
+,HeadlessChrome 0.0.0 (Linux 0.0.0) LOG: undefined
+,HeadlessChrome 0.0.0 (Linux 0.0.0) LOG: undefined
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
