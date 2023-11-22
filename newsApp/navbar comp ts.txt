@@ -1,0 +1,68 @@
+import { News } from './../../model/news';
+import { NewsState } from './../../store/reducers/news.reducer';
+import { NewsActions } from '../../store/actions/news.actions';
+
+import { getNewsSection } from '../../store/reducers/selector';
+import { news } from '../../store/reducers/news.reducer';
+import { getNews } from '../../store/reducers/selector';
+
+import { Component, OnInit } from '@angular/core';
+import { Store } from '@ngrx/store';
+import { Observable } from 'rxjs/Observable';
+
+@Component({
+  selector: 'app-navbar',
+  templateUrl: './navbar.component.html',
+  styleUrls: ['./navbar.component.css']
+})
+export class NavbarComponent implements OnInit {
+  subsections: string[] = [];
+  response: Object[];
+  currentSubSection: string;
+
+  public newsList: Observable<News[]> = this.store.select(getNewsSection);
+
+  constructor(
+    private store: Store<any>,
+    private newsActions: NewsActions
+  ) { }
+
+  ngOnInit() {
+    //this.subsections = ['movies', 'tech', 'money'];
+     this.initSubscriptions();
+  }
+
+  /**
+   * Holding Subscriptions
+   */
+  initSubscriptions(): void {
+
+    // subscription to store & selector to pull all section news
+    //this.store.dispatch(this.newsActions.LoadSectionNews(filter));
+    this.store.subscribe(
+      newsList => {
+          this.currentSubSection = '';
+          this.subsections = [];
+          for (const item of newsList) {
+            // pulling all subsection which is unique and non empty
+            if (item.subsection.length && this.subsections.indexOf(item.subsection) === -1) {
+              this.subsections.push(item.subsection);
+              console.log(item.subsection);
+            }
+          }
+        }
+    );
+  }
+
+  /**
+   * Filter news by dispatching subsection filter action
+   * @param filter - subsection string
+   */
+  dispatchAction(filter: string): void {
+    this.currentSubSection = filter;
+
+    this.store.dispatch(filter as any);
+    //this.store.dispatch(this.newsActions.FilterSubsection(filter));
+  }
+
+}

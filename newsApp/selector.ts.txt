@@ -1,0 +1,32 @@
+import {createSelector } from 'reselect';
+import { getNewsList, getFilter } from './news.reducer';
+
+import { News } from '../../model/news';
+
+export const getNews = createSelector(getNewsList, news => news);
+
+/**
+ * Get News Section Selector
+ */
+export const getNewsSection = createSelector(
+    getNewsList,
+    news => news.sectionNews
+)
+
+/**
+ * Get Filter SubSection Section Selector
+ */
+export const getFilterSubSection = createSelector(
+    getFilter,
+    news => news.sectionNews.filter((item: News) => {
+        // section of news selected
+        if (!news.filterNewsSection.length) {
+            return item;
+        } else {
+            // subsection of news selected
+            if (item.subsection === news.filterNewsSection) {
+                return item;
+            }
+        }
+    })
+)

@@ -1,0 +1,457 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 78.0.3904 (Linux 0.0.0)" package="unit" timestamp="2022-02-14T20:36:22" id="0" hostname="workspacec57hxubpld8m9tp3.ws-7b889cb47d-2fd6p" tests="24" errors="0" failures="4" time="0.716">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/78.0.3904.108 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent should create the app" time="0.093" classname="unit.AppComponent"/>
+  <testcase name="HeaderComponent should be created" time="0.021" classname="unit.HeaderComponent"/>
+  <testcase name="NavbarComponent should be created" time="0.034" classname="unit.NavbarComponent"/>
+  <testcase name="NavbarComponent should define the store" time="0.03" classname="unit.NavbarComponent"/>
+  <testcase name="NavbarComponent should define subsections" time="0.036" classname="unit.NavbarComponent"/>
+  <testcase name="NavbarComponent should display subsection in template" time="0.032" classname="unit.NavbarComponent"/>
+  <testcase name="NavbarComponent should call dispatchAction() when subsection is clicked" time="0.031" classname="unit.NavbarComponent"/>
+  <testcase name="NavbarComponent should dispatch action when dispatchAction is called" time="0.035" classname="unit.NavbarComponent">
+    <failure type="">Expected spy dispatch to have been called with [ 'movies' ] but actual calls were [ Object({ type: '[News] FILTER_SUBSECTION', payload: 'movies' }) ].
+    at new ZoneAwareError node_modules/zone.js/dist/zone.js:992:1)
+    at Object.&lt;anonymous&gt; src/app/components/navbar/navbar.component.spec.ts:74:28)
+    at step (http://localhost:9876/_karma_webpack_/main.bundle.js:316:23)
+    at Object.next (http://localhost:9876/_karma_webpack_/main.bundle.js:297:53)
+    at http://localhost:9876/_karma_webpack_/main.bundle.js:291:71
+    at new ZoneAwarePromise node_modules/zone.js/dist/zone.js:729:1)
+    at webpackJsonp../src/app/components/navbar/navbar.component.spec.ts.__awaiter (http://localhost:9876/_karma_webpack_/main.bundle.js:287:12)
+    at Object.&lt;anonymous&gt; src/app/components/navbar/navbar.component.spec.ts:65:62)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:334:1)
+</failure>
+  </testcase>
+  <testcase name="NewsItemComponent should be created" time="0.047" classname="unit.NewsItemComponent"/>
+  <testcase name="NewsItemComponent should display title in template" time="0.037" classname="unit.NewsItemComponent"/>
+  <testcase name="NewsItemComponent should display news abstract in template" time="0.04" classname="unit.NewsItemComponent"/>
+  <testcase name="NewsComponent should create" time="0.054" classname="unit.NewsComponent"/>
+  <testcase name="NewsComponent should define the store" time="0.063" classname="unit.NewsComponent"/>
+  <testcase name="SectionsComponent should create the component" time="0.04" classname="unit.SectionsComponent"/>
+  <testcase name="SectionsComponent should store the sections in array: sectionList " time="0.081" classname="unit.SectionsComponent"/>
+  <testcase name="SectionsComponent should display the section name in DOM" time="0.022" classname="unit.SectionsComponent">
+    <failure type="">TypeError: Cannot read property 'nativeElement' of null
+    at Object.&lt;anonymous&gt; src/app/components/sections/sections.component.spec.ts:54:66)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:334:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:333:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run node_modules/zone.js/dist/zone.js:126:1)
+    at Object.&lt;anonymous&gt; node_modules/zone.js/dist/jasmine-patch.js:104:1)
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/bundles/core-testing.umd.js:91:1
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:334:1)
+    at AsyncTestZoneSpec.webpackJsonp../node_modules/zone.js/dist/async-test.js.AsyncTestZoneSpec.onInvoke node_modules/zone.js/dist/async-test.js:49:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/proxy.js:76:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:333:1)
+</failure>
+  </testcase>
+  <testcase name="NewsService should be created" time="0.009" classname="unit.NewsService"/>
+  <testcase name="NewsService should get results" time="0.01" classname="unit.NewsService"/>
+  <testcase name="The news reducer should load news, when LOAD_SECTION_NEWS dispatched" time="0" classname="unit.The news reducer"/>
+  <testcase name="The news reducer should update the filter, when FILTER_SUBSECTION is dispatched" time="0" classname="unit.The news reducer"/>
+  <testcase name="The news reducer should return the list of news, when getNewsList() is called" time="0" classname="unit.The news reducer"/>
+  <testcase name="The news reducer should return the filter value, when getFilter() is called" time="0" classname="unit.The news reducer"/>
+  <testcase name="The sections reducer should return the list of sections, when LOAD_SECTIONS is dispatched" time="0.001" classname="unit.The sections reducer">
+    <failure type="">Expected 0 to equal [ 'home', 'opinion', 'world', 'national', 'politics', 'business', 'technology', 'science', 'health', 'sports', 'arts', 'books', 'movies', 'theater', 'fashion', 'food', 'travel', 'magazine', 'realestate', 'automobiles' ].
+    at new ZoneAwareError node_modules/zone.js/dist/zone.js:992:1)
+    at Object.&lt;anonymous&gt; src/app/store/reducers/sections.reducer.spec.ts:15:24)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:334:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:333:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run node_modules/zone.js/dist/zone.js:126:1)
+    at Object.&lt;anonymous&gt; node_modules/zone.js/dist/jasmine-patch.js:104:1)
+</failure>
+  </testcase>
+  <testcase name="The sections reducer should return the initial state if no action is dispatched" time="0" classname="unit.The sections reducer">
+    <failure type="">Expected 0 to equal [ 'home', 'opinion', 'world', 'national', 'politics', 'business', 'technology', 'science', 'health', 'sports', 'arts', 'books', 'movies', 'theater', 'fashion', 'food', 'travel', 'magazine', 'realestate', 'automobiles' ].
+    at new ZoneAwareError node_modules/zone.js/dist/zone.js:992:1)
+    at Object.&lt;anonymous&gt; src/app/store/reducers/sections.reducer.spec.ts:26:24)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:334:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:333:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run node_modules/zone.js/dist/zone.js:126:1)
+    at Object.&lt;anonymous&gt; node_modules/zone.js/dist/jasmine-patch.js:104:1)
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[HeadlessChrome 78.0.3904 (Linux 0.0.0) ERROR: 'Unhandled Promise rejection:', 'Cannot read property 'nativeElement' of null', '; Zone:', 'ProxyZone', '; Task:', 'setTimeout', '; Value:', TypeError{__zone_symbol__currentTask: ZoneTask{zone: Zone{_properties: ..., _parent: ..., _name: ..., _zoneDelegate: ...}, runCount: 0, _zoneDelegates: null, _state: 'notScheduled', type: 'macroTask', source: 'setTimeout', data: Object{handleId: ..., isPeriodic: ..., delay: ..., args: ...}, scheduleFn: function scheduleTask(task) { ... }, cancelFn: null, callback: function () { ... }, invoke: function () { ... }}}, 'TypeError: Cannot read property 'nativeElement' of null
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:45:66)
+    at step (http://localhost:9876/_karma_webpack_/main.bundle.js:316:23)
+    at Object.next (http://localhost:9876/_karma_webpack_/main.bundle.js:297:53)
+    at http://localhost:9876/_karma_webpack_/main.bundle.js:291:71
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:729:1)
+    at webpackJsonp../src/app/components/navbar/navbar.component.spec.ts.__awaiter (http://localhost:9876/_karma_webpack_/main.bundle.js:287:12)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:41:47)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:334:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:333:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:126:1)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/jasmine-patch.js:104:1)
+    at attemptSync (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1886:24)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1874:9)
+    at http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1898:16'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) ERROR: Error{__zone_symbol__error: Error{originalStack: 'Error: Uncaught (in promise): TypeError: Cannot read property 'nativeElement' of null
+TypeError: Cannot read property 'nativeElement' of null
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:45:66)
+    at step (http://localhost:9876/_karma_webpack_/main.bundle.js:316:23)
+    at Object.next (http://localhost:9876/_karma_webpack_/main.bundle.js:297:53)
+    at http://localhost:9876/_karma_webpack_/main.bundle.js:291:71
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:729:1)
+    at webpackJsonp../src/app/components/navbar/navbar.component.spec.ts.__awaiter (http://localhost:9876/_karma_webpack_/main.bundle.js:287:12)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:41:47)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:334:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:333:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:126:1)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/jasmine-patch.js:104:1)
+    at attemptSync (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1886:24)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1874:9)
+    at http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1898:16
+    at new ZoneAwareError (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:992:1)
+    at resolvePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:665:1)
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:732:1)
+    at webpackJsonp../src/app/components/navbar/navbar.component.spec.ts.__awaiter (http://localhost:9876/_karma_webpack_/main.bundle.js:287:12)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:41:47)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:334:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:333:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:126:1)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/jasmine-patch.js:104:1)
+    at attemptSync (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1886:24)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1874:9)
+    at http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1898:16
+    at http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1842:9
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/bundles/core-testing.umd.js:91:1', zoneAwareStack: 'Error: Uncaught (in promise): TypeError: Cannot read property 'nativeElement' of null
+TypeError: Cannot read property 'nativeElement' of null
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:45:66)
+    at step (http://localhost:9876/_karma_webpack_/main.bundle.js:316:23)
+    at Object.next (http://localhost:9876/_karma_webpack_/main.bundle.js:297:53)
+    at http://localhost:9876/_karma_webpack_/main.bundle.js:291:71
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:729:1)
+    at webpackJsonp../src/app/components/navbar/navbar.component.spec.ts.__awaiter (http://localhost:9876/_karma_webpack_/main.bundle.js:287:12)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:41:47)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:334:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:333:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:126:1)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/jasmine-patch.js:104:1)
+    at attemptSync (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1886:24)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1874:9)
+    at http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1898:16
+    at new ZoneAwareError (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:992:1)
+    at resolvePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:665:1)
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:732:1)
+    at webpackJsonp../src/app/components/navbar/navbar.component.spec.ts.__awaiter (http://localhost:9876/_karma_webpack_/main.bundle.js:287:12)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:41:47)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:334:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:333:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:126:1)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/jasmine-patch.js:104:1)
+    at attemptSync (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1886:24)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1874:9)
+    at http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1898:16
+    at http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1842:9
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/bundles/core-testing.umd.js:91:1'}, stack: 'Error: Uncaught (in promise): TypeError: Cannot read property 'nativeElement' of null
+TypeError: Cannot read property 'nativeElement' of null
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:45:66)
+    at step (http://localhost:9876/_karma_webpack_/main.bundle.js:316:23)
+    at Object.next (http://localhost:9876/_karma_webpack_/main.bundle.js:297:53)
+    at http://localhost:9876/_karma_webpack_/main.bundle.js:291:71
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:729:1)
+    at webpackJsonp../src/app/components/navbar/navbar.component.spec.ts.__awaiter (http://localhost:9876/_karma_webpack_/main.bundle.js:287:12)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:41:47)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:334:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:333:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:126:1)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/jasmine-patch.js:104:1)
+    at attemptSync (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1886:24)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1874:9)
+    at http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1898:16
+    at new ZoneAwareError (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:992:1)
+    at resolvePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:665:1)
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:732:1)
+    at webpackJsonp../src/app/components/navbar/navbar.component.spec.ts.__awaiter (http://localhost:9876/_karma_webpack_/main.bundle.js:287:12)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:41:47)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:334:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:333:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:126:1)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/jasmine-patch.js:104:1)
+    at attemptSync (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1886:24)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1874:9)
+    at http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1898:16
+    at http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1842:9
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/bundles/core-testing.umd.js:91:1', name: 'Error', message: 'Uncaught (in promise): TypeError: Cannot read property 'nativeElement' of null
+TypeError: Cannot read property 'nativeElement' of null
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:45:66)
+    at step (http://localhost:9876/_karma_webpack_/main.bundle.js:316:23)
+    at Object.next (http://localhost:9876/_karma_webpack_/main.bundle.js:297:53)
+    at http://localhost:9876/_karma_webpack_/main.bundle.js:291:71
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:729:1)
+    at webpackJsonp../src/app/components/navbar/navbar.component.spec.ts.__awaiter (http://localhost:9876/_karma_webpack_/main.bundle.js:287:12)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:41:47)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:334:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:333:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:126:1)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/jasmine-patch.js:104:1)
+    at attemptSync (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1886:24)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1874:9)
+    at http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1898:16', originalStack: 'Error: Uncaught (in promise): TypeError: Cannot read property 'nativeElement' of null
+TypeError: Cannot read property 'nativeElement' of null
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:45:66)
+    at step (http://localhost:9876/_karma_webpack_/main.bundle.js:316:23)
+    at Object.next (http://localhost:9876/_karma_webpack_/main.bundle.js:297:53)
+    at http://localhost:9876/_karma_webpack_/main.bundle.js:291:71
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:729:1)
+    at webpackJsonp../src/app/components/navbar/navbar.component.spec.ts.__awaiter (http://localhost:9876/_karma_webpack_/main.bundle.js:287:12)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:41:47)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:334:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:333:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:126:1)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/jasmine-patch.js:104:1)
+    at attemptSync (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1886:24)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1874:9)
+    at http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1898:16
+    at new ZoneAwareError (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:992:1)
+    at resolvePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:665:1)
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:732:1)
+    at webpackJsonp../src/app/components/navbar/navbar.component.spec.ts.__awaiter (http://localhost:9876/_karma_webpack_/main.bundle.js:287:12)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:41:47)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:334:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:333:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:126:1)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/jasmine-patch.js:104:1)
+    at attemptSync (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1886:24)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1874:9)
+    at http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1898:16
+    at http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1842:9
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/bundles/core-testing.umd.js:91:1', zoneAwareStack: 'Error: Uncaught (in promise): TypeError: Cannot read property 'nativeElement' of null
+TypeError: Cannot read property 'nativeElement' of null
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:45:66)
+    at step (http://localhost:9876/_karma_webpack_/main.bundle.js:316:23)
+    at Object.next (http://localhost:9876/_karma_webpack_/main.bundle.js:297:53)
+    at http://localhost:9876/_karma_webpack_/main.bundle.js:291:71
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:729:1)
+    at webpackJsonp../src/app/components/navbar/navbar.component.spec.ts.__awaiter (http://localhost:9876/_karma_webpack_/main.bundle.js:287:12)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:41:47)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:334:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:333:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:126:1)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/jasmine-patch.js:104:1)
+    at attemptSync (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1886:24)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1874:9)
+    at http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1898:16
+    at new ZoneAwareError (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:992:1)
+    at resolvePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:665:1)
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:732:1)
+    at webpackJsonp../src/app/components/navbar/navbar.component.spec.ts.__awaiter (http://localhost:9876/_karma_webpack_/main.bundle.js:287:12)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:41:47)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:334:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:333:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:126:1)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/jasmine-patch.js:104:1)
+    at attemptSync (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1886:24)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1874:9)
+    at http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1898:16
+    at http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1842:9
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/bundles/core-testing.umd.js:91:1', toString: function () { ... }, toSource: function () { ... }, rejection: TypeError{__zone_symbol__currentTask: ZoneTask{zone: ..., runCount: ..., _zoneDelegates: ..., _state: ..., type: ..., source: ..., data: ..., scheduleFn: ..., cancelFn: ..., callback: ..., invoke: ...}}, promise: ZoneAwarePromise{__zone_symbol__state: 0, __zone_symbol__value: TypeError{__zone_symbol__currentTask: ...}}, zone: Zone{_properties: Object{ProxyZoneSpec: ...}, _parent: Zone{_properties: ..., _parent: ..., _name: ..., _zoneDelegate: ...}, _name: 'ProxyZone', _zoneDelegate: ZoneDelegate{_taskCounts: ..., zone: ..., _parentDelegate: ..., _forkZS: ..., _forkDlgt: ..., _forkCurrZone: ..., _interceptZS: ..., _interceptDlgt: ..., _interceptCurrZone: ..., _invokeZS: ..., _invokeDlgt: ..., _invokeCurrZone: ..., _handleErrorZS: ..., _handleErrorDlgt: ..., _handleErrorCurrZone: ..., _scheduleTaskZS: ..., _scheduleTaskDlgt: ..., _scheduleTaskCurrZone: ..., _invokeTaskZS: ..., _invokeTaskDlgt: ..., _invokeTaskCurrZone: ..., _cancelTaskZS: ..., _cancelTaskDlgt: ..., _cancelTaskCurrZone: ..., _hasTaskZS: ..., _hasTaskDlgt: ..., _hasTaskDlgtOwner: ..., _hasTaskCurrZone: ...}}, task: ZoneTask{zone: Zone{_properties: ..., _parent: ..., _name: ..., _zoneDelegate: ...}, runCount: 0, _zoneDelegates: null, _state: 'notScheduled', type: 'macroTask', source: 'setTimeout', data: Object{handleId: ..., isPeriodic: ..., delay: ..., args: ...}, scheduleFn: function scheduleTask(task) { ... }, cancelFn: null, callback: function () { ... }, invoke: function () { ... }}}
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) ERROR: 'Unhandled Promise rejection:', 'Cannot read property 'triggerEventHandler' of null', '; Zone:', 'ProxyZone', '; Task:', 'setTimeout', '; Value:', TypeError{__zone_symbol__currentTask: ZoneTask{zone: Zone{_properties: ..., _parent: ..., _name: ..., _zoneDelegate: ...}, runCount: 0, _zoneDelegates: null, _state: 'notScheduled', type: 'macroTask', source: 'setTimeout', data: Object{handleId: ..., isPeriodic: ..., delay: ..., args: ...}, scheduleFn: function scheduleTask(task) { ... }, cancelFn: null, callback: function () { ... }, invoke: function () { ... }}}, 'TypeError: Cannot read property 'triggerEventHandler' of null
+    at Object.click (http://localhost:9876/_karma_webpack_/webpack:/testing/index.ts:39:8)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:57:5)
+    at step (http://localhost:9876/_karma_webpack_/main.bundle.js:316:23)
+    at Object.next (http://localhost:9876/_karma_webpack_/main.bundle.js:297:53)
+    at http://localhost:9876/_karma_webpack_/main.bundle.js:291:71
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:729:1)
+    at webpackJsonp../src/app/components/navbar/navbar.component.spec.ts.__awaiter (http://localhost:9876/_karma_webpack_/main.bundle.js:287:12)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:52:65)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:334:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:333:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:126:1)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/jasmine-patch.js:104:1)
+    at attemptSync (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1886:24)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1874:9)'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) ERROR: Error{__zone_symbol__error: Error{originalStack: 'Error: Uncaught (in promise): TypeError: Cannot read property 'triggerEventHandler' of null
+TypeError: Cannot read property 'triggerEventHandler' of null
+    at Object.click (http://localhost:9876/_karma_webpack_/webpack:/testing/index.ts:39:8)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:57:5)
+    at step (http://localhost:9876/_karma_webpack_/main.bundle.js:316:23)
+    at Object.next (http://localhost:9876/_karma_webpack_/main.bundle.js:297:53)
+    at http://localhost:9876/_karma_webpack_/main.bundle.js:291:71
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:729:1)
+    at webpackJsonp../src/app/components/navbar/navbar.component.spec.ts.__awaiter (http://localhost:9876/_karma_webpack_/main.bundle.js:287:12)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:52:65)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:334:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:333:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:126:1)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/jasmine-patch.js:104:1)
+    at attemptSync (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1886:24)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1874:9)
+    at new ZoneAwareError (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:992:1)
+    at resolvePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:665:1)
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:732:1)
+    at webpackJsonp../src/app/components/navbar/navbar.component.spec.ts.__awaiter (http://localhost:9876/_karma_webpack_/main.bundle.js:287:12)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:52:65)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:334:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:333:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:126:1)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/jasmine-patch.js:104:1)
+    at attemptSync (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1886:24)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1874:9)
+    at http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1898:16
+    at http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1842:9
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/bundles/core-testing.umd.js:91:1', zoneAwareStack: 'Error: Uncaught (in promise): TypeError: Cannot read property 'triggerEventHandler' of null
+TypeError: Cannot read property 'triggerEventHandler' of null
+    at Object.click (http://localhost:9876/_karma_webpack_/webpack:/testing/index.ts:39:8)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:57:5)
+    at step (http://localhost:9876/_karma_webpack_/main.bundle.js:316:23)
+    at Object.next (http://localhost:9876/_karma_webpack_/main.bundle.js:297:53)
+    at http://localhost:9876/_karma_webpack_/main.bundle.js:291:71
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:729:1)
+    at webpackJsonp../src/app/components/navbar/navbar.component.spec.ts.__awaiter (http://localhost:9876/_karma_webpack_/main.bundle.js:287:12)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:52:65)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:334:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:333:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:126:1)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/jasmine-patch.js:104:1)
+    at attemptSync (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1886:24)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1874:9)
+    at new ZoneAwareError (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:992:1)
+    at resolvePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:665:1)
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:732:1)
+    at webpackJsonp../src/app/components/navbar/navbar.component.spec.ts.__awaiter (http://localhost:9876/_karma_webpack_/main.bundle.js:287:12)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:52:65)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:334:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:333:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:126:1)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/jasmine-patch.js:104:1)
+    at attemptSync (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1886:24)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1874:9)
+    at http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1898:16
+    at http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1842:9
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/bundles/core-testing.umd.js:91:1'}, stack: 'Error: Uncaught (in promise): TypeError: Cannot read property 'triggerEventHandler' of null
+TypeError: Cannot read property 'triggerEventHandler' of null
+    at Object.click (http://localhost:9876/_karma_webpack_/webpack:/testing/index.ts:39:8)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:57:5)
+    at step (http://localhost:9876/_karma_webpack_/main.bundle.js:316:23)
+    at Object.next (http://localhost:9876/_karma_webpack_/main.bundle.js:297:53)
+    at http://localhost:9876/_karma_webpack_/main.bundle.js:291:71
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:729:1)
+    at webpackJsonp../src/app/components/navbar/navbar.component.spec.ts.__awaiter (http://localhost:9876/_karma_webpack_/main.bundle.js:287:12)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:52:65)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:334:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:333:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:126:1)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/jasmine-patch.js:104:1)
+    at attemptSync (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1886:24)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1874:9)
+    at new ZoneAwareError (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:992:1)
+    at resolvePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:665:1)
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:732:1)
+    at webpackJsonp../src/app/components/navbar/navbar.component.spec.ts.__awaiter (http://localhost:9876/_karma_webpack_/main.bundle.js:287:12)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:52:65)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:334:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:333:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:126:1)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/jasmine-patch.js:104:1)
+    at attemptSync (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1886:24)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1874:9)
+    at http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1898:16
+    at http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1842:9
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/bundles/core-testing.umd.js:91:1', name: 'Error', message: 'Uncaught (in promise): TypeError: Cannot read property 'triggerEventHandler' of null
+TypeError: Cannot read property 'triggerEventHandler' of null
+    at Object.click (http://localhost:9876/_karma_webpack_/webpack:/testing/index.ts:39:8)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:57:5)
+    at step (http://localhost:9876/_karma_webpack_/main.bundle.js:316:23)
+    at Object.next (http://localhost:9876/_karma_webpack_/main.bundle.js:297:53)
+    at http://localhost:9876/_karma_webpack_/main.bundle.js:291:71
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:729:1)
+    at webpackJsonp../src/app/components/navbar/navbar.component.spec.ts.__awaiter (http://localhost:9876/_karma_webpack_/main.bundle.js:287:12)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:52:65)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:334:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:333:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:126:1)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/jasmine-patch.js:104:1)
+    at attemptSync (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1886:24)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1874:9)', originalStack: 'Error: Uncaught (in promise): TypeError: Cannot read property 'triggerEventHandler' of null
+TypeError: Cannot read property 'triggerEventHandler' of null
+    at Object.click (http://localhost:9876/_karma_webpack_/webpack:/testing/index.ts:39:8)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:57:5)
+    at step (http://localhost:9876/_karma_webpack_/main.bundle.js:316:23)
+    at Object.next (http://localhost:9876/_karma_webpack_/main.bundle.js:297:53)
+    at http://localhost:9876/_karma_webpack_/main.bundle.js:291:71
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:729:1)
+    at webpackJsonp../src/app/components/navbar/navbar.component.spec.ts.__awaiter (http://localhost:9876/_karma_webpack_/main.bundle.js:287:12)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:52:65)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:334:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:333:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:126:1)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/jasmine-patch.js:104:1)
+    at attemptSync (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1886:24)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1874:9)
+    at new ZoneAwareError (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:992:1)
+    at resolvePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:665:1)
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:732:1)
+    at webpackJsonp../src/app/components/navbar/navbar.component.spec.ts.__awaiter (http://localhost:9876/_karma_webpack_/main.bundle.js:287:12)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:52:65)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:334:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:333:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:126:1)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/jasmine-patch.js:104:1)
+    at attemptSync (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1886:24)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1874:9)
+    at http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1898:16
+    at http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1842:9
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/bundles/core-testing.umd.js:91:1', zoneAwareStack: 'Error: Uncaught (in promise): TypeError: Cannot read property 'triggerEventHandler' of null
+TypeError: Cannot read property 'triggerEventHandler' of null
+    at Object.click (http://localhost:9876/_karma_webpack_/webpack:/testing/index.ts:39:8)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:57:5)
+    at step (http://localhost:9876/_karma_webpack_/main.bundle.js:316:23)
+    at Object.next (http://localhost:9876/_karma_webpack_/main.bundle.js:297:53)
+    at http://localhost:9876/_karma_webpack_/main.bundle.js:291:71
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:729:1)
+    at webpackJsonp../src/app/components/navbar/navbar.component.spec.ts.__awaiter (http://localhost:9876/_karma_webpack_/main.bundle.js:287:12)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:52:65)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:334:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:333:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:126:1)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/jasmine-patch.js:104:1)
+    at attemptSync (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1886:24)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1874:9)
+    at new ZoneAwareError (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:992:1)
+    at resolvePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:665:1)
+    at new ZoneAwarePromise (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:732:1)
+    at webpackJsonp../src/app/components/navbar/navbar.component.spec.ts.__awaiter (http://localhost:9876/_karma_webpack_/main.bundle.js:287:12)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/src/app/components/navbar/navbar.component.spec.ts:52:65)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:334:1)
+    at ProxyZoneSpec.webpackJsonp../node_modules/zone.js/dist/proxy.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/proxy.js:79:1)
+    at ZoneDelegate.webpackJsonp../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:333:1)
+    at Zone.webpackJsonp../node_modules/zone.js/dist/zone.js.Zone.run (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/zone.js:126:1)
+    at Object.<anonymous> (http://localhost:9876/_karma_webpack_/webpack:/node_modules/zone.js/dist/jasmine-patch.js:104:1)
+    at attemptSync (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1886:24)
+    at ZoneQueueRunner.QueueRunner.run (http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1874:9)
+    at http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1898:16
+    at http://localhost:9876/base/node_modules/jasmine-core/lib/jasmine-core/jasmine.js?391e45351df9ee35392d2e5cb623221a969fc009:1842:9
+    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/core/bundles/core-testing.umd.js:91:1', toString: function () { ... }, toSource: function () { ... }, rejection: TypeError{__zone_symbol__currentTask: ZoneTask{zone: ..., runCount: ..., _zoneDelegates: ..., _state: ..., type: ..., source: ..., data: ..., scheduleFn: ..., cancelFn: ..., callback: ..., invoke: ...}}, promise: ZoneAwarePromise{__zone_symbol__state: 0, __zone_symbol__value: TypeError{__zone_symbol__currentTask: ...}}, zone: Zone{_properties: Object{ProxyZoneSpec: ...}, _parent: Zone{_properties: ..., _parent: ..., _name: ..., _zoneDelegate: ...}, _name: 'ProxyZone', _zoneDelegate: ZoneDelegate{_taskCounts: ..., zone: ..., _parentDelegate: ..., _forkZS: ..., _forkDlgt: ..., _forkCurrZone: ..., _interceptZS: ..., _interceptDlgt: ..., _interceptCurrZone: ..., _invokeZS: ..., _invokeDlgt: ..., _invokeCurrZone: ..., _handleErrorZS: ..., _handleErrorDlgt: ..., _handleErrorCurrZone: ..., _scheduleTaskZS: ..., _scheduleTaskDlgt: ..., _scheduleTaskCurrZone: ..., _invokeTaskZS: ..., _invokeTaskDlgt: ..., _invokeTaskCurrZone: ..., _cancelTaskZS: ..., _cancelTaskDlgt: ..., _cancelTaskCurrZone: ..., _hasTaskZS: ..., _hasTaskDlgt: ..., _hasTaskDlgtOwner: ..., _hasTaskCurrZone: ...}}, task: ZoneTask{zone: Zone{_properties: ..., _parent: ..., _name: ..., _zoneDelegate: ...}, runCount: 0, _zoneDelegates: null, _state: 'notScheduled', type: 'macroTask', source: 'setTimeout', data: Object{handleId: ..., isPeriodic: ..., delay: ..., args: ...}, scheduleFn: function scheduleTask(task) { ... }, cancelFn: null, callback: function () { ... }, invoke: function () { ... }}}
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
